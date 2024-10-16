@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <button type="button" onclick="showMessage();">Click me!</button>
+    <div id="messageDiv"></div>
+    <button type="button" onclick="showMessage1()">Click me1!</button>
+    <div></div>
+    <button type="button" onclick="showMessage2()">Click me2</button>
+    <div></div>
+    <button type="button" onclick="showMessage3()">Clicl me3</button>
+</body>
+</html>
+<script>
+    function showMessage(){
+        alert('Xin chào');
+    }
+    function showMessage1(){
+        var divTag = document.getElementById('messageDiv');
+        
+        divTag.innerHTML = 'xin chàoo';
+    }
+    function showMessage2(){
+        document.write('xin chàooooo');
+    }
+    function showMessage3(){
+        console.log('xinchao!!');
+        
+    }
+</script>
